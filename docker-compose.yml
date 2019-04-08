@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  python:
+    build: .
+    volumes:
+      - ./processing:/usr/src/processing
+    stdin_open: true
+    tty: true
